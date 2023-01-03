@@ -88,8 +88,14 @@ main {
  .nav-link:hover {
     background: #e5e5e5;
     cursor: pointer;
+    border-radius: 10px;
   }
- 
- .active {
-    background: #e5e5e5;
- }
+  .content {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+  }
+  
