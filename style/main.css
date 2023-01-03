@@ -20,6 +20,39 @@ header img{
   height: 40px;
   width: auto;
 }
+.logo{
+  display: flex;
+  align-items: center;
+ }
+.bi-list {
+ color: black;
+ padding: 0 7px;
+ cursor: pointer;
+}
+.search {
+  display: flex;
+ }
+ 
+.search form {
+  display: flex;
+  border: 1px solid #ddd;
+  height: 45px;
+}
+.search input {
+  width: 600px;
+  padding:10px;
+  border: 0;
+  height: 100%;
+  border-radius: 2px 0 0 2px
+}
+.search button {
+  height: 100%;
+  width: 60px;
+  border: none;
+}
+.bi-mic {
+  margin-top: 10px;
+}
 main {
   height: 100vh;
   display: flex;
